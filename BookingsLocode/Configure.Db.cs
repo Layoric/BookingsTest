@@ -33,16 +33,16 @@ namespace BookingsLocode
                 if (db.CreateTableIfNotExists<Booking>())
                 {
                     // Seed data
-                    db.Insert(new Booking
-                    {
-                        Name = "Test",
-                        Cost = 123,
-                        RoomNumber = 321,
-                        RoomType = RoomType.Queen,
-                        Notes = "Testing more",
-                        BookingStartDate = new DateTime(2022, 1, 1),
-                        BookingEndDate = new DateTime(2022, 1, 5)
-                    });
+                    // db.Insert(new Booking
+                    // {
+                    //     Name = "Test",
+                    //     Cost = 123,
+                    //     RoomNumber = 321,
+                    //     RoomType = RoomType.Queen,
+                    //     Notes = "Testing more",
+                    //     BookingStartDate = new DateTime(2022, 1, 1),
+                    //     BookingEndDate = new DateTime(2022, 1, 5)
+                    // });
                 }
             });
             
